@@ -16,7 +16,7 @@
 5. **Contagem de String**: Conta caracteres totais em uma frase. (`exercice-5.c`)
 6. **Verificação de Primo**: Algoritmo para identificar números primos. (`exercice-6.c`)
 
-obs: meu compilador está com problemas, tive que fazer os testes de código em um playground até resolver esse problema...
+### obs: meu compilador está com problemas, tive que fazer os testes de código em um playground até resolver esse problema...
 sendo assim, não sei se a compilação está funcionando bem em outra IDE..
 ---
 
