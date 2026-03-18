@@ -1,14 +1,16 @@
 #include <stdio.h>
 
 int main() {
+
     int n;
-    long long fatorial = 1;
+    int fact = 1;
     printf("Digite um numero: ");
     scanf("%d", &n);
 
     for(int i = 1; i <= n; i++) {
-        fatorial *= i;
+        fact *= i;
     }
-    printf("Fatorial de %d e: %lld\n", n, fatorial);
+    
+    printf("Fatorial de %d e: %d\n", n, fact);
     return 0;
 }

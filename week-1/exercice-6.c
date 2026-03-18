@@ -1,16 +1,19 @@
 #include <stdio.h>
 
 int main() {
-    int n, divisores = 0;
-    printf("Digite um numero: ");
-    scanf("%d", &n);
 
-    for(int i = 1; i <= n; i++) {
-        if(n % i == 0) divisores++;
+    int x, div = 0;
+        printf("Digite um numero: ");
+        scanf("%d", &x);
+
+    for(int i = 1; i <= x; i++) {
+        if(x % i == 0) div++;
     }
 
-    if(divisores == 2) printf("%d e primo.\n", n);
-    else printf("%d nao e primo.\n", n);
+    if(div == 2) 
+        printf("o numero %d e primo.\n", x);
+    else 
+        printf("o numero %d nao e primo.\n", x);
 
     return 0;
 }

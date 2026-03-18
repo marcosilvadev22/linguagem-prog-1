@@ -2,10 +2,12 @@
 #include <string.h>
 
 int main() {
-    char texto[100];
-    printf("Digite uma frase: ");
-    scanf(" %[^\n]", texto); 
 
-    printf("A string possui %d caracteres.\n", (int)strlen(texto));
+    char x[100];
+    
+    printf("Digite uma frase: ");
+    scanf(" %[^\n]", x); 
+
+    printf("A string possui %d caracteres.\n", strlen(x));
     return 0;
 }
